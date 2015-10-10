@@ -10,7 +10,7 @@ import org.apache.commons.lang.math.NumberUtils;
 public class Options {
     private static final String PRODUCT_NAME = "arnoc";
     public static final int MAJOR_VERSION = 1;
-    public static final int MINOR_VERSION = 0;
+    public static final int MINOR_VERSION = 1;
 
     private String inputSql = "";
     private int inputSpeed = 9600;

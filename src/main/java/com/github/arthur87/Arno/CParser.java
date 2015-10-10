@@ -138,9 +138,9 @@ public class CParser {
                 printWriter.println("    Serial.print(\" \");");
             }
             printWriter.println("    Serial.print(\"]\");");
-            printWriter.println(String.format("    delay(%d);", delay));
-
             printWriter.println("  }");
+
+            printWriter.println(String.format("  delay(%d);", delay));
             printWriter.println("}");
 
             printWriter.close();

@@ -30,8 +30,8 @@ void loop() {
     Serial.print(ain20);
     Serial.print(" ");
     Serial.print("]");
-    delay(1000);
   }
+  delay(1000);
 }
 ```
 
@@ -53,7 +53,7 @@ dinはdigitalPin、ainはanalogPinに対応しています。
 また、使用できる比較演算子は以下のとおりです。
 
 | 種類 | 意味 |
-|--|--|
+|---|---|
 | a = b |	aとbが等しい |
 | a < b	|	aはbより小さい |
 | a > b	|	aはbより大きい |
@@ -65,7 +65,7 @@ dinはdigitalPin、ainはanalogPinに対応しています。
 使用できる論理演算子は以下のとおりです。
 
 | 種類 | 意味 |
-|--|--|
+|---|---|
 | a AND b |	aかつbの場合 |
 | a OR b	|	aまたはbの場合 |
 
