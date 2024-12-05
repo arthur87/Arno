@@ -1,5 +1,5 @@
-[!NOTE]
-Arnoは開発が終了し、後継プロジェクトである [rossoc](https://github.com/arthur87/rossoc) に移行しました。
+> [!NOTE]
+> Arnoは開発が終了し、後継プロジェクトである [rossoc](https://github.com/arthur87/rossoc) に移行しました。
 
 # Arno
 ArnoはSQLをArduinoのソースコードに変換するコンパイラです。
